@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Saldoku</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">zavinto | saldoku!</string>
+    <string name="title_section2">update | saldoku</string>
+    <string name="title_section3">laporan | saldoku</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

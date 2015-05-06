@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAAAFF" >
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center"
+            android:background="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:text="UPDATE DOKUMU!" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Jenis :"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+       
+        <RadioButton 
+            android:id="@+id/jenis_pemasukan"
+            android:layout_width="125dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:background="#AAFFAA"
+            android:text="Pemasukan"
+            android:checked="true"
+            android:textSize="16dp"
+            />
+        <RadioButton 
+            android:id="@+id/jenis_pengeluaran"
+           android:layout_width="125dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:background="#AAFFAA"
+            
+            android:text="Pengeluaran"
+            android:checked="false"
+            android:textSize="16dp"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/nominal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Nominal :"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/nominal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="#AAFFAA"
+            android:gravity="center"
+            android:inputType="number"
+            android:selectAllOnFocus="true"
+            android:text="0"
+            android:textSize="16dp" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/jenis"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Keterangan :"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/keterangan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="#AAFFAA"
+            android:gravity="center"
+            android:selectAllOnFocus="true"
+            android:text="Duitnya dari/ke mana?"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="UPDATE" />
+
+        
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

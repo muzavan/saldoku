@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAAAFF"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".HelpActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="#FFFFFF" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="SALDOKU"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Seharusnya maneh tahu duit maneh kemana!"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="By : ZAVINTO"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Dengan SALDOKU, anda bisa mengawasi kemana saja perginya duit (doku) anda. Tinggal geser sana-sini,isi sana-sini, tekan sana-sini, dan voila! Anda tahu berapa doku sisa anda dan kemana saja doku anda pergi.\n
+                Kami membantu anda mempermudah membuat catatan keuangan anda tanpa harus buka catatan nota kas blabla dan juga microsoft excel.Anda juga mudah melihat data pengeluaran anda. Semua mudah di sini. Anda juga dapat &apos;membukukan&apos; laporan anda sehingga anda bisa dengan mudah mengakses data keuangan yang lebih kekinian. Masukan dan saran dari anda tentu akan membantu kami meningkatkan ketepatan aplikasi ini.
+                \nSalam.
+                \nSemoga Anda Cepat Kaya!\n\nMuhammad Reza Irvanda \nCalvin Sadewa \nTirta Wening Rachman                
+                " />
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Back" />
+    </LinearLayout>
+
+</RelativeLayout>
